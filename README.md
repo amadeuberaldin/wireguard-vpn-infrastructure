@@ -12,7 +12,7 @@ with SSH isolation and firewall hardening.
 ## Tech stack
 - Ubuntu Server 24.04 LTS
 - WireGuard
-- UFW firewall
+- Firewall: iptables + netfilter-persistent (VPS), UFW
 - OpenSSH hardening
 - (Optional) Docker networking
 

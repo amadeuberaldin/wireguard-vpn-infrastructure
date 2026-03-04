@@ -1,0 +1,16 @@
+Internet
+  |
+  |  Public IP (VPS)
+  v
+[VPS: wg0 10.10.10.1/24]
+  |
+  | WireGuard tunnel (10.10.10.0/24)
+  |
+  +--> [Home Server: wg0 10.10.10.2/32 | LAN 192.168.100.50]
+  |
+  +--> [PC: wg0 10.10.10.10/32 | LAN 192.168.100.102/103]
+
+Notes:
+- ISP uses CGNAT at home, so inbound connections terminate on the VPS.
+- VPS routes between WireGuard peers (wg0 -> wg0 forwarding).
+- Optional DNAT on VPS can publish selected services from home server.
