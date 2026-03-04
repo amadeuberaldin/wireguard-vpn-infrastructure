@@ -22,4 +22,8 @@ with SSH isolation and firewall hardening.
 - `scripts/`: audit scripts and helpers
 - `examples/`: masked outputs (IPs and hostnames removed)
 
+## Security & Documentation
+- [Sanitization checklist](docs/SANITIZE-CHECKLIST.md)
+- [Architecture Decisions (ADRs)](docs/adr/)
+
 > This repository does not include private keys, real IP addresses, or sensitive logs.
