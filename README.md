@@ -26,4 +26,9 @@ with SSH isolation and firewall hardening.
 - [Sanitization checklist](docs/SANITIZE-CHECKLIST.md)
 - [Architecture Decisions (ADRs)](docs/adr/)
 
+## Enable local security pre-commit hook
+- cp hooks/pre-commit.example 
+- .git/hooks/pre-commit
+- chmod +x .git/hooks/pre-commit
+
 > This repository does not include private keys, real IP addresses, or sensitive logs.
