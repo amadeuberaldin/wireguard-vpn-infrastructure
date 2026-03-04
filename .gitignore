@@ -1,0 +1,14 @@
+# nunca publicar segredos
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# wireguard configs reais
+**/wireguard/*.conf
+**/wg0*.conf
+
+# logs
+*.log
